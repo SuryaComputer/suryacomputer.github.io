@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Surya Computer | Toko Komputer No.1 Di Lombok Timur</title>
+    <meta name="description" content="Surya Computer - Toko komputer terpercaya di Lombok Timur menyediakan laptop, PC, printer, dan aksesoris komputer dengan harga kompetitif dan garansi resmi.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+    <meta name="keywords" content="toko komputer lombok, laptop murah lombok, pc rakitan lombok, printer murah, aksesoris komputer">
+    <meta name="author" content="Surya Computer">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <style type="text/css">
+        :root {
+            --primary-color: #c70000;
+            --secondary-color: #f5f7fa;
+            --text-color: #333;
+            --light-gray: #e1e4e8;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: var(--text-color);
+            background-color: white;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        .container {
+            width: 60%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+        
+        #header {
+            background-color: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            height: 40px;
+            max-width: 100%;
+        }
+        
+        .language-selector img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        #navbar {
+            background-color: white;
+            border-bottom: 1px solid var(--light-gray);
+        }
+        
+        #linklist {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        #linklist li {
+            padding: 15px 20px;
+            box-sizing: border-box;
+        }
+        
+        #linklist a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            transition: color 0.2s;
+            white-space: nowrap;
+        }
+        
+        #linklist a:hover {
+            color: var(--primary-color);
+        }
+        
+        #main {
+            padding: 40px 0;
+            flex: 1;
+        }
+        
+        .main-content {
+            display: flex;
+            gap: 40px;
+        }
+        
+        #text {
+            flex: 2;
+            min-width: 0;
+        }
+        
+        #panelright {
+            flex: 1;
+            margin-top: 20px;
+        }
+        
+        h1 {
+            color: var(--primary-color);
+            font-size: clamp(24px, 3vw, 28px);
+            margin-top: 0;
+            font-weight: 600;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            font-size: clamp(18px, 2.5vw, 20px);
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            font-size: clamp(14px, 2vw, 15px);
+            line-height: 1.7;
+        }
+        
+        .defaultLink {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .defaultLink:hover {
+            text-decoration: underline;
+        }
+        
+        #buttons {
+            margin-bottom: 30px;
+        }
+        
+        #buy-button, #download-button, .order-button {
+            display: block;
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-bottom: 15px;
+            text-decoration: none;
+            font-weight: 500;
+            border-radius: 4px;
+            font-size: 15px;
+            transition: background-color 0.2s;
+            width: 100%;
+            box-sizing: border-box;
+            border: none;
+            cursor: pointer;
+        }
+        
+        #buy-button:hover, #download-button:hover, .order-button:hover {
+            background-color: #a50000;
+        }
+        
+        .awardSlides {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+            border: 1px solid var(--light-gray);
+            padding: 15px;
+            border-radius: 4px;
+            background-color: white;
+        }
+        
+        .awardSlides img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        .product-card {
+            border: 1px solid var(--light-gray);
+            border-radius: 8px;
+            padding: 15px;
+            background-color: white;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 180px;
+            object-fit: contain;
+            margin-bottom: 15px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        
+        .product-title {
+            font-weight: 600;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: var(--primary-color);
+        }
+        
+        .product-specs {
+            font-size: 14px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .product-price {
+            font-weight: 700;
+            font-size: 18px;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        #footer {
+            background-color: var(--secondary-color);
+            padding: 25px 0;
+            margin-top: 50px;
+            font-size: 13px;
+        }
+        
+        #submenu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-top: 20px;
+            border-top: 1px solid var(--light-gray);
+            gap: 15px;
+        }
+        
+        #social img {
+            width: 24px;
+            height: 24px;
+            margin: 0 8px;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+        
+        #social img:hover {
+            opacity: 1;
+        }
+        
+        #ul_lnk ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        #ul_lnk li {
+            margin: 0 10px;
+        }
+        
+        #ul_lnk a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+        
+        #ul_lnk a:hover {
+            text-decoration: underline;
+        }
+        
+        .store-description {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .store-description h2 {
+            margin-top: 0;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 1024px) {
+            .container {
+                width: 80%;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            
+            .main-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            #panelright {
+                margin-top: 30px;
+            }
+            
+            #linklist li {
+                padding: 10px 15px;
+            }
+            
+            .header-content {
+                flex-direction: row;
+                align-items: center;
+            }
+            
+            .language-selector {
+                margin-top: 0;
+            }
+            
+            .product-grid {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                width: 95%;
+            }
+            
+            #linklist li {
+                padding: 8px 10px;
+            }
+            
+            #submenu {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 10px;
+            }
+            
+            #ul_lnk ul {
+                justify-content: center;
+            }
+            
+            #ul_lnk li {
+                margin: 5px 8px;
+            }
+            
+            .header-content {
+                justify-content: center;
+                gap: 15px;
+            }
+            
+            .logo {
+                height: 35px;
+            }
+            
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="header-content">
+                <a id="logolink" href="/">
+                    <img class="logo" src="img/logo.png" alt="Surya Computer">
+                </a>
+                <div class="language-selector">
+                     <img src="img/partner.png" width="150" alt="Surya Computer">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="main">
+        <div class="container">
+            <div class="main-content">
+                <div id="text">
+                    <div class="store-description">
+                        <h2>Selamat Datang di Surya Computer</h2>
+                        <p>Surya Computer adalah toko komputer terpercaya di Lombok Timur yang menyediakan berbagai produk teknologi berkualitas. Kami menawarkan laptop, PC rakitan, printer, scanner, dan berbagai aksesoris komputer dengan harga kompetitif. Produk kami dilengkapi dengan garansi resmi dan layanan purna jual yang terjamin.</p>
+                        <p>Kami berkomitmen untuk memberikan solusi teknologi terbaik untuk kebutuhan pribadi, bisnis, maupun pendidikan. Tim kami yang profesional siap membantu Anda memilih produk yang tepat sesuai kebutuhan dan budget.</p>
+                    </div>
+                    
+                    <h1>Promo Terbaru</h1>
+                    <p>Daftar Laptop Promo ! periode promo tergantung pada ketersedian barang.</p>
+                    
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <img src="img/product/axioo-hype1.png" alt="Axioo Hype 1" class="product-image">
+                            <h3 class="product-title">Axioo Hype 1</h3>
+                            <div class="product-specs">
+                                <p>Intel Celeron N4020</p>
+                                <p>4GB RAM, 128GB SSD</p>
+                                <p>14" FHD IPS Display</p>
+                                <p>Windows 11 Home</p>
+                            </div>
+                            <div class="product-price">Rp 2.975.000</div>
+                            <a href="https://wa.me/p/9379810912129889/6287841268281" class="order-button">Order Sekarang</a>
+                        </div>
+                        <div class="product-card">
+                            <img src="img/product/advan-1405.png" alt="Advan Soulmate" class="product-image">
+                            <h3 class="product-title">Advan Soulmate 1405</h3>
+                            <div class="product-specs">
+                                <p>Intel Celeron N4020</p>
+                                <p>4GB RAM, 128GB SSD</p>
+                                <p>14" FHD IPS Display</p>
+                                <p>Windows 11 Home</p>
+                            </div>
+                            <div class="product-price">Rp 2.750.000</div>
+                            <a href="https://wa.me/p/9853248961394417/6287841268281" class="order-button">Order Sekarang</a>
+                        </div>
+                         <div class="product-card">
+                            <img src="img/product/lenovo-9pid.png" alt="Lenovo ip1-9pid" class="product-image">
+                            <h3 class="product-title">Lenovo Ideapad 1 9PID</h3>
+                            <div class="product-specs">
+                                <p>Intel Celeron N4020</p>
+                                <p>8GB RAM, 256GB SSD</p>
+                                <p>14" FHD IPS Display</p>
+                                <p>Windows 11 Home</p>
+                            </div>
+                            <div class="product-price">Rp 4.775.000</div>
+                            <a href="https://wa.me/p/29264393756492548/6287841268281" class="order-button">Order Sekarang</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <h1>Katalog</h1>
+                    <p>Daftar Katalog Produk Yang Tersedia.</p>
+                    <a href="https://wa.me/c/6287841268281" class="order-button">Lihat Katalog Terbaru</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <div class="container">
+            <div id="submenu">
+               <div id="ul_copy">
+                    <span>&copy; 2025 Surya Computer. All rights reserved.</span>
+                </div>
+                <div id="ul_lnk">
+                    <ul>
+                        <li><a href="/privacy.html">Privacy Policy</a></li>
+                        <li><a href="/terms.html">Terms</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div id="ul_copy">
+                    <span><img src="img/partner.png" width="80" alt="Ari Solutions"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
