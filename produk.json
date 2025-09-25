@@ -1,0 +1,135 @@
+﻿[
+  {
+    "nama": "ASUS E1404GA",
+    "spesifikasi": "Core i3-N305 / 8GB DDR5 / 256GB SSD / 14\"Inch",
+    "garansi": "2 Tahun",
+    "harga": "6275000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "ASUS E1404FA",
+    "spesifikasi": "Ryzen 3 7320U / 8GB DDR4 / 256GB SSD / 14\" Inch",
+    "garansi": "2 Tahun",
+    "harga": "6175000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "ASUS E410KA (320GB)",
+    "spesifikasi": "N4500 / 4GB DDR4 / 320GB SSD / 14\"Inch",
+    "garansi": "1 Tahun",
+    "harga": "4550000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "ASUS E410KA (256GB)",
+    "spesifikasi": "N4500 / 8GB DDR4 / 256GB SSD / 14\"Inch",
+    "garansi": "2 Tahun",
+    "harga": "4975000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "ACER AL14-32P Ci3 (256GB)",
+    "spesifikasi": "Core i3 N355 / 8GB DDR5 / 256GB SSD / 14\"Inch",
+    "garansi": "1 Tahun",
+    "harga": "5975000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "ACER AL14-32P Ci3 (512GB)",
+    "spesifikasi": "Core i3 N355 / 8GB DDR5 / 512GB SSD / 14\"Inch",
+    "garansi": "1 Tahun",
+    "harga": "6350000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "ACER AL14-32P Celeron",
+    "spesifikasi": "N150 / 8GB DDR5 / 256GB SSD / 14\"Inch",
+    "garansi": "1 Tahun",
+    "harga": "5275000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "ACER GO AG14-32P",
+    "spesifikasi": "Ryzen 3 7320U / 8GB DDR5 / 512GB SSD / 14\"Inch",
+    "garansi": "1 Tahun",
+    "harga": "5400000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "ADVAN SOULMATE 1405",
+    "spesifikasi": "N4020 / 4GB DDR4 /128GB SSD / 14\"Inch",
+    "garansi": "1 Tahun",
+    "harga": "2775000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "ADVAN T-BOOK",
+    "spesifikasi": "N100 / 8GB DDR5 / 128GB eMMC / 14\"inch",
+    "garansi": "1 Tahun ",
+    "harga": "3300000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "AXIOO HYPE 1 4GB",
+    "spesifikasi": "N4020 / 4GB DDR4 / 128GB SSD / 14\"Inch",
+    "garansi": "2 Tahun",
+    "harga": "2975000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "AXIOO HYPE 1 8GB",
+    "spesifikasi": "N4020 / 8GB DDR4 / 384GB SSD / 14\"Inch",
+    "garansi": "1 Tahun",
+    "harga": "3475000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "AXIOO SLIM 14F",
+    "spesifikasi": "Core i3 5005U / 4GB DDR4 / 256GB SSD / 14\"Inch",
+    "garansi": "1 Tahun",
+    "harga": "6075000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "AXIOO MYBOOK Z6",
+    "spesifikasi": "Core i3 1215U / 8GB DDR4 / 256GB SSD / 14\"Inch",
+    "garansi": "1 Tahun",
+    "harga": "6700000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "LENOVO IP SLIM 3-62ID",
+    "spesifikasi": "N100 / 8GB DDR5 / 512GB SSD / 14\"Inch",
+    "garansi": "1 Tahun",
+    "harga": "5275000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "HP 240-G9",
+    "spesifikasi": "Core i3 1315U / 8GB DDR5 / 256GB SSD / 14\"Inch",
+    "garansi": "1 Tahun",
+    "harga": "5975000",
+    "kategori": "laptop"
+  },
+  {
+    "nama": "EPSON L3210",
+    "spesifikasi": "3-In-One (Print,Scan,Copy)",
+    "garansi": "2 Tahun",
+    "harga": "2350000",
+    "kategori": "printer"
+  },
+  {
+    "nama": "EPSON L121",
+    "spesifikasi": "Print Only",
+    "garansi": "1 Tahun",
+    "harga": "1775000",
+    "kategori": "printer"
+  },
+  {
+    "nama": "HP SMART TANK 520",
+    "spesifikasi": "All-in-One",
+    "garansi": "1 Tahun",
+    "harga": "2150000",
+    "kategori": "printer"
+  }
+]
